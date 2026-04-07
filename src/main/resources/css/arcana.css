@@ -1,0 +1,81 @@
+/* Divina Arcana — dark celestial gold theme */
+
+.root {
+    -fx-background-color: #080B1A;
+    -fx-font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+/* scrollbars — invisible but functional */
+.scroll-bar {
+    -fx-background-color: transparent;
+    -fx-opacity: 0.3;
+}
+.scroll-bar .thumb {
+    -fx-background-color: #D4AF37;
+    -fx-background-radius: 4;
+}
+.scroll-bar .track {
+    -fx-background-color: rgba(212,175,55,0.05);
+}
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 0;
+}
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* text inputs */
+.text-field {
+    -fx-background-color: rgba(10,14,35,0.8);
+    -fx-text-fill: #F5E6C8;
+    -fx-prompt-text-fill: #5A5040;
+    -fx-border-color: #D4AF37;
+    -fx-border-width: 1;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 8 16;
+    -fx-font-family: 'Georgia', serif;
+    -fx-font-size: 14px;
+    -fx-highlight-fill: rgba(212,175,55,0.3);
+}
+.text-field:focused {
+    -fx-border-color: #F0D060;
+    -fx-effect: dropshadow(gaussian, rgba(212,175,55,0.4), 8, 0.1, 0, 0);
+}
+
+/* labels inherit font */
+.label {
+    -fx-font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+/* context menus (right click) stay dark */
+.context-menu {
+    -fx-background-color: #0D1030;
+    -fx-border-color: #D4AF37;
+    -fx-border-width: 1;
+}
+.menu-item {
+    -fx-background-color: transparent;
+    -fx-text-fill: #F5E6C8;
+}
+.menu-item:hover {
+    -fx-background-color: rgba(212,175,55,0.12);
+}
+
+/* tooltip */
+.tooltip {
+    -fx-background-color: rgba(10,14,35,0.95);
+    -fx-text-fill: #F5E6C8;
+    -fx-border-color: #D4AF37;
+    -fx-border-width: 1;
+    -fx-font-family: 'Georgia', serif;
+    -fx-font-size: 11px;
+    -fx-padding: 6 12;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
