@@ -1,11 +1,11 @@
 package com.divinaarcana.view;
 
+import java.util.Random;
+
 import javafx.animation.AnimationTimer;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
-
-import java.util.Random;
 
 // the eternal backdrop — stars that breathe and drift with the mouse
 public class StarField extends Canvas {

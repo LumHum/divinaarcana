@@ -1,5 +1,7 @@
 package com.divinaarcana.scene;
 
+import java.util.List;
+
 import com.divinaarcana.DivinaArcana;
 import com.divinaarcana.model.ReadingType;
 import com.divinaarcana.model.TarotCard;
@@ -10,16 +12,22 @@ import com.divinaarcana.view.CardView;
 import com.divinaarcana.view.DialogueBar;
 import com.divinaarcana.view.StarField;
 import com.divinaarcana.view.WispView;
-import javafx.animation.*;
+
+import javafx.animation.FadeTransition;
+import javafx.animation.Interpolator;
+import javafx.animation.ParallelTransition;
+import javafx.animation.PauseTransition;
+import javafx.animation.RotateTransition;
+import javafx.animation.SequentialTransition;
+import javafx.animation.TranslateTransition;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.layout.*;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.util.Duration;
-
-import java.util.List;
 
 // the sacred shuffle — the seeker's intent enters the deck
 public class ShuffleScene extends StackPane {

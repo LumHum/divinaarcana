@@ -7,12 +7,18 @@ import com.divinaarcana.util.WispDialogue;
 import com.divinaarcana.view.DialogueBar;
 import com.divinaarcana.view.StarField;
 import com.divinaarcana.view.WispView;
-import javafx.animation.*;
+
+import javafx.animation.Animation;
+import javafx.animation.FadeTransition;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.layout.*;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.util.Duration;
 
 // the chamber of choice — where the seeker picks their fate

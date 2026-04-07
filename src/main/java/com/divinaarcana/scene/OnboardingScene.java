@@ -6,13 +6,16 @@ import com.divinaarcana.util.WispDialogue;
 import com.divinaarcana.view.DialogueBar;
 import com.divinaarcana.view.StarField;
 import com.divinaarcana.view.WispView;
-import javafx.animation.*;
+
+import javafx.animation.FadeTransition;
+import javafx.animation.PauseTransition;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
-import javafx.scene.layout.*;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.util.Duration;
 
 // wisp teaches you the ways — seeker is welcomed into the fold

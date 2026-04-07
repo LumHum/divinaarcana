@@ -5,11 +5,11 @@ set -e
 DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$DIR"
 
-# check Java 17+
+# check Java 21+
 JAVA_VER=$(java -version 2>&1 | awk -F '"' '/version/ {print $2}' | cut -d. -f1)
-if [ "$JAVA_VER" -lt 17 ] 2>/dev/null; then
+if [ "$JAVA_VER" -lt 21 ] 2>/dev/null; then
   echo ""
-  echo "  ✦ Divina Arcana requires Java 17 or later."
+  echo "  ✦ Divina Arcana requires Java 21 or later."
   echo "  Install it from: https://adoptium.net"
   echo ""
   exit 1

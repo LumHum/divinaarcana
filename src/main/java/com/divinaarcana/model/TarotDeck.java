@@ -1,11 +1,11 @@
 package com.divinaarcana.model;
 
-import com.divinaarcana.model.TarotCard.Arcana;
-import com.divinaarcana.model.TarotCard.Suit;
-import com.divinaarcana.model.TarotCard.Element;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import com.divinaarcana.model.TarotCard.Arcana;
+import com.divinaarcana.model.TarotCard.Element;
+import com.divinaarcana.model.TarotCard.Suit;
 
 public class TarotDeck {
 

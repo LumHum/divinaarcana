@@ -1,9 +1,13 @@
 package com.divinaarcana.util;
 
-import javax.sound.sampled.*;
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
+import javax.sound.sampled.AudioFormat;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.DataLine;
+import javax.sound.sampled.SourceDataLine;
 
 // the unseen musician — weaves mystical tones from pure mathematics
 public class SoundOracle {

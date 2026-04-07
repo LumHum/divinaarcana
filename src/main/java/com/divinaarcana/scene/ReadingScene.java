@@ -1,5 +1,8 @@
 package com.divinaarcana.scene;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.divinaarcana.DivinaArcana;
 import com.divinaarcana.model.ReadingType;
 import com.divinaarcana.model.TarotCard;
@@ -9,21 +12,21 @@ import com.divinaarcana.view.CardView;
 import com.divinaarcana.view.DialogueBar;
 import com.divinaarcana.view.StarField;
 import com.divinaarcana.view.WispView;
-import javafx.animation.*;
+
+import javafx.animation.FadeTransition;
+import javafx.animation.PauseTransition;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
-import javafx.scene.layout.*;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Line;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.scene.transform.Scale;
 import javafx.util.Duration;
-
-import java.util.ArrayList;
-import java.util.List;
 
 // the great reveal — fate made visible, properly laid out
 public class ReadingScene extends StackPane {

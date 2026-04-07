@@ -2,11 +2,13 @@ package com.divinaarcana.view;
 
 import com.divinaarcana.model.TarotCard;
 import com.divinaarcana.model.TarotCard.Element;
-import javafx.animation.*;
+
+import javafx.animation.Interpolator;
+import javafx.animation.ScaleTransition;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.effect.DropShadow;
 import javafx.scene.effect.BlurType;
+import javafx.scene.effect.DropShadow;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.CycleMethod;

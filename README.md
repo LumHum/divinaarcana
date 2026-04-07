@@ -75,8 +75,8 @@ Element accent colours: Fire `#E07828` · Water `#4EA8D9` · Air `#80C4D0` · Ea
 
 | | |
 |---|---|
-| Language | Java 17 |
-| UI Framework | JavaFX 21.0.2 |
+| Language | Java 21 |
+| UI Framework | JavaFX 23.0.2 |
 | Build | Maven |
 | Art | Pure Java2D / Canvas API — zero image assets |
 | Audio | JavaFX MediaPlayer |
@@ -86,12 +86,13 @@ Element accent colours: Fire `#E07828` · Water `#4EA8D9` · Air `#80C4D0` · Ea
 ## Running
 
 ```bash
-git clone https://github.com/your-username/divinaarcana.git
+git clone https://github.com/LumHum/divinaarcana.git
 cd divinaarcana
-mvn clean javafx:run
+./get-fonts.sh   # optional — downloads Cinzel fonts for the premium look
+./run.sh
 ```
 
-Requires Java 17+ and Maven. JavaFX is pulled automatically via the `org.openjfx` Maven plugin.
+Requires Java 21+ and Maven. JavaFX is pulled automatically via the `org.openjfx` Maven plugin.
 
 ---
 

@@ -1,12 +1,12 @@
 package com.divinaarcana.util;
 
-import com.divinaarcana.model.TarotCard;
-import com.divinaarcana.model.TarotDeck;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
+
+import com.divinaarcana.model.TarotCard;
+import com.divinaarcana.model.TarotDeck;
 
 // the sacred randomizer — don't call it a shuffle algorithm, it's ancient magic
 public class MagicDivination {

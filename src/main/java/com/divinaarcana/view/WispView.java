@@ -1,13 +1,16 @@
 package com.divinaarcana.view;
 
-import javafx.animation.*;
+import java.util.Random;
+
+import javafx.animation.AnimationTimer;
+import javafx.animation.Interpolator;
+import javafx.animation.RotateTransition;
+import javafx.animation.TranslateTransition;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.util.Duration;
-
-import java.util.Random;
 
 // Wisp — the dark oracle made of light and bad intentions
 // speaks through DialogueBar now; this is just the beautiful, unsettling particle body

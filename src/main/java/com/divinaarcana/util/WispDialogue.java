@@ -1,10 +1,10 @@
 package com.divinaarcana.util;
 
-import com.divinaarcana.model.ReadingType;
-import com.divinaarcana.model.TarotCard;
-
 import java.util.List;
 import java.util.Random;
+
+import com.divinaarcana.model.ReadingType;
+import com.divinaarcana.model.TarotCard;
 
 public class WispDialogue {
 

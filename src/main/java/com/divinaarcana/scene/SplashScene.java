@@ -6,13 +6,18 @@ import com.divinaarcana.util.WispDialogue;
 import com.divinaarcana.view.DialogueBar;
 import com.divinaarcana.view.StarField;
 import com.divinaarcana.view.WispView;
-import javafx.animation.*;
+
+import javafx.animation.FadeTransition;
+import javafx.animation.Interpolator;
+import javafx.animation.ParallelTransition;
+import javafx.animation.PauseTransition;
+import javafx.animation.ScaleTransition;
 import javafx.geometry.Pos;
 import javafx.scene.control.Label;
+import javafx.scene.effect.DropShadow;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
-import javafx.scene.effect.DropShadow;
 import javafx.util.Duration;
 
 // the door opens — first impression is everything
